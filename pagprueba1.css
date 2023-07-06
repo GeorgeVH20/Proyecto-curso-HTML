@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgb(145, 152, 124), rgb(77, 74, 78));
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(120, 125, 122);
+}
+
+.active {
+    background-color: #5d5e64;
+}
+
+.text1 {
+    text-align: center;
+    text-align: center;
+    text-shadow: 3px 3px rgb(25, 24, 24);
+    color: #FFF;
+}
+
+h1 {
+    background-color: rgb(39, 33, 33);
+    padding: 10px;
+    margin: 0;
+    color: #f1f1f3;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.image {
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 20%;
+    height: auto;
+    border: solid 2px white;
+}
+
+.image2 {
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 20%;
+    height: auto;
+    border: solid 2px white;
+}
+.article {
+    float: left;
+    width: 70%;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #CCC;
+}
+
+.footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    float: bottom;
+}

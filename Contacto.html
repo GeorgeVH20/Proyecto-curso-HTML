@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muestra</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="Pagprueba1.html">Inicio</a></li>
+                <li><a href="Estadísticas.html">Experiencia laboral</a></li>
+                <li><a class="active" href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Formulario de contacto</h2>
+
+    <div class="contenedor-formulario">
+        <form action="">
+            <fieldset>
+                <legend>Informaci&oacute;n para contactar</legend>
+
+                <label for="Name">Nombre</label>
+                <input type="text" id="Name" name="Name" placeholder="Nombre completo" minlength="10" required>
+                <br>
+                <label for="Empresa">Empresa</label>
+                <input type="text" id="Empresa" name="Empresa" placeholder="Nombre de la empresa" required>
+                <br>
+                <label for="email">Correo electr&oacute;nico</label>
+                <input type="email" id="Email" name="Email" placeholder="@" required>
+                <br>
+                <label for="Tel&eacute;fono">Tel&eacute;fono</label>
+                <input type="text" id="Tel" name="Tel&eacute;fono" placeholder="Tel&eacute;fono para contactar" minlength="8" required>
+                <br>
+                <label for="Nivel de experiencia">Nivel de experiencia deseado</label>
+                <select name="Experiencia" id="Experiencia">
+                    <option value="Junior">Junior</option>
+                    <option value="Semi senior">Semi senior</option>
+                    <option value="Senior">Senior</option>
+                </select>
+                <br>
+                <input type="submit" value="Enviar datos">
+
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+<footer class="footer">Derechos reservados &copy;2023</footer>
+
+</html>

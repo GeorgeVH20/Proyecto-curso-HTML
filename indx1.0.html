@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pr&aacute;ctica HTML</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button>Home</button>
+            <button>Tools</button>
+            <button>Contact</button>
+            <button>Extras</button>
+        </nav>
+    </header>
+
+    <h1>Esta es una p&aacute;gina de repaso sobre todo el HTML</h1>
+    <section>
+        <article><i>Ejemplo</i></article>
+        <article><b>Ejemplo</b></article>
+        <article><strong>Ejemplo</strong></article>
+        <article><em>Ejemplo</em></article>
+    </section>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Inventore qui aliquid aliquam quam itaque nemo
+        deserunt
+        omnis ipsa tenetur iusto mollitia molestiae iste reprehenderit quisquam corrupti rem, quo reiciendis. <br>
+        Doloribus?
+    </p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <hr> Reprehenderit dignissimos ipsum facere at hic illo
+        cupiditate dolore quae quod facilis, quia natus nam ea, voluptatem voluptates accusamus voluptatum.
+        <hr> Consectetur,
+        minus!
+    </p>
+
+    <pre>
+        Ac&aacute; hay un salto de p&aacute;gina con la etiqueta pre que no necesita br 
+        Ac&aacute; hay otro
+        Ac&aacute; est&aacute; el &uacute;ltimo
+    </pre>
+
+    <blockquote>"Se utiliza esta etiqueta para las citas con comillas" Agrega una sangr&iacute;a en autom&aacute;tico
+    </blockquote> <br>
+    <q>Esta es otra manera de poner comillas sin la etiqueta anterior y sin la sangr&iacute;a</q> <br>
+    <p><q>Inserte una cita</q> Autor</p>
+
+    <p>Hipotenusa <sup>2</sup> = cateto <sup>2</sup> + cateto <sup>2</sup> . Este es un ejemplo para colocar un
+        potenciador num&eacute;rico</p>
+
+    <p>F&oacute;rmula del agua: H<sub>2</sub>0. Este es un ejemplo para colocar un d&iacute;gito o letra por debajo de
+        la l&iacute;nea</p>
+
+    <p>Para una abreviatura resaltada se utiliza lo siguiente <abbr title="Kil&oacute;metros">Kms</abbr></p>
+
+    <p>La siguiente etiqueta se puede usar para acr&oacute;nimos <acronym
+            title="Organizaci&oacute;n Mundial de la Salud">OMS</acronym></p> <br>
+
+    <a href="https://www.google.com">P&aacute;gina principal de google para ejemplo del uso de la etiqueta "a"</a> <br>
+    <a href="https://www.google.com" target="_blank">P&aacute;gina principal de google para ejemplo del uso de la
+        etiqueta "a" enviando a otra pestaña con el target blank</a> <br>
+    <a href="mailto:jorgevihe@gmail.com">Ejemplo de como enviar Email: Enviar e mail a Jorge</a> <br>
+    <a href="tel:+50660653782">Ejemplo de enlace para llamar por tel&eacute;fono</a>
+
+    <h3>Elementos multimedia imagen</h3>
+
+    <p>Ejemplo de inserci&oacute;n de una imagen utilizando solamente HTML</p> <br>
+    <img src="des web.jpg" alt="Ejemplo de imagen en HTML" width="200px">
+
+    <p>Ejemplo de inserci&oacute;n de una imagen desde una carpeta externa</p> <br>
+    <img src="/assets/img y videos/img/des web.jpg" alt="Ejemplo de imagen en HTML desde otra carpeta"
+        width="250px"><br>
+
+    <p>Ejemplo de una imagen con un link a otra p&aacute;gina incorporado</p> <br>
+    <a href="https://www.google.com" target="_blank">
+        <img src="des web.jpg" alt="Progrmador" width="150px">
+    </a>
+
+
+    <h3>Elementos multimedia video</h3>
+
+    <p>Ejemplo de un video guardado en una carpeta local con controles</p> <br>
+    <video src="/assets/img y videos/video/pexels_videos_2750158 (2160p).mp4" controls autoplay width="600px"></video>
+
+    <p>Ejemplo de un video con el source</p> <br>
+    <video controls autoplay width="600px">
+        <source src="/assets/img y videos/video/pexels_videos_2750158 (2160p).mp4" type="video/mp4">
+    </video><br>
+    <p>Tu navegador no puede descargar este video, clickea<a
+            href="/assets/img y videos/video/pexels_videos_2750158 (2160p).mp4" target="_blank">aqu&iacute;</a></p>
+
+    <p>Ejemplo de un video con un poster</p> <br>
+    <video controls width="600px" poster="/assets/img y videos/img/des web.jpg">
+        <source src="/assets/img y videos/video/pexels_videos_2750158 (2160p).mp4" type="video/mp4">
+    </video><br>
+
+    <p>Ejemplo de un video comentado</p> <br>
+    <p>ver video directamente en el c&oacute;digo de la p&aacute;gina</p>
+
+    <!-- video controls width="600px" poster="/assets/img y videos/img/des web.jpg">
+        <source src="/assets/img y videos/video/pexels_videos_2750158 (2160p).mp4" type="video/mp4"> </video> --> <br>
+
+    <h3>Elementos multimedia audio</h3>
+
+    <audio src="/assets/img y videos/audio/008576979_prev.mp3" controls>Audio de ejemplo para HTML</audio>
+
+    <h3>Listas</h3>
+
+    <p>Se utiliza la etiqueta "hr" para una l&iacute;nea divisoria </p>
+    <hr>
+
+    <p>Lista ordenada</p>
+    <ol>
+        <li>Perro</li>
+        <li>Gato</li>
+        <li>Caballo</li>
+    </ol>
+    <br>
+    <p>Lista desordenada</p>
+    <ul>
+        <li>Loro</li>
+        <li>Pez</li>
+        <li>Cerdo</li>
+    </ul>
+    <br>
+    <p>Lista dentro de otra</p>
+    <ol>
+        <li>Desayunar
+            <ul>
+                <li>Pinto</li>
+                <li>Huevos</li>
+                <li>Caf&eacute;</li>
+            </ul>
+        </li>
+        <li>Limpiar</li>
+        <li>Compras</li>
+    </ol>
+    <br>
+    <p>Lista ordenada que comience con un n&uacute;mero en espec&iacute;fico</p>
+    <ol start="10">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <br>
+    <p>Lista ordenada que comience con un indicador en espec&iacute;fico, se usa "type" para ello</p>
+    <ol type="1">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <br>
+    <ol type="A">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <br>
+    <ol type="a">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <br>
+    <ol type="I">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <br>
+    <ol type="i">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <br>
+
+    <p>Lista ordenada que comience en reversa, se utiliza "reversed" para ello</p>
+    <ol reversed>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <br>
+
+        <h3>Tablas</h3>
+        <p>Para un fila se usa "tr" - para una columna se usa "td" - para la primer fila que es el encabezado se utiliza
+            "th" para distinguirlo</p>
+
+        <table border="1">
+
+            <tr>
+                <th>Item 1</th>
+                <th>Item 2</th>
+                <th>Item 3</th>
+                <th>Item 4</th>
+            </tr>
+
+            <tr>
+                <td>Item 1</td>
+                <td>Item 2</td>
+                <td>Item 3</td>
+                <td>Item 4</td>
+            </tr>
+
+            <p>Para dejar la casilla en blanco se usa "& nbsp" todo pegado</p>
+            <tr>
+                <td>&nbsp;</td>
+                <td>Item 1</td>
+                <td>Item 2</td>
+                <td>Item 3</td>
+            </tr>
+
+        </table>
+        <br>
+
+        <hr>
+        <h3>Agrupadores</h3>
+        <br>
+
+        <p>Los div ocupan todo el ancho, son agrupadores en bloque</p>
+        <div>
+            <h2>T&iacute;tulo secundario</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum veritatis, eaque aperiam eos quae aliquid
+                voluptate vel quidem odio delectus, temporibus repellendus? Consequatur quibusdam et aspernatur
+                doloremque exercitationem vero quasi?</p>
+            <img src="/assets/img y videos/img/des web.jpg" alt="Imagen prueba de div" width="300px"> <br>
+            <a href="https://www.google.com" target="_blank">Google</a>
+        </div>
+
+        <p>La etiqueta "span" es un agrupador en l&iacute;nea</p>
+        <br>
+
+        <span>
+            <strong>La fecha del d&iacute;a de hoy</strong> <em>2 de julio del 2023</em>
+        </span>
+
+        <hr>
+
+        <h3>Elementos iframe</h3>
+        <p>Se utilizan para agregar contenido y elementos que no pertenecen a la p&aacute;gina como tal</p>
+        <br>
+        <h4>YouTube</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AUlmk4geQE8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <br>
+        <h4>soundcloud</h4>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271226216&color=%2321516e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <div
+            style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            <a href="https://soundcloud.com/maroon-5" title="Maroon 5" target="_blank"
+                style="color: #cccccc; text-decoration: none;">Maroon 5</a> · <a
+                href="https://soundcloud.com/maroon-5/animals" title="Maroon 5 - Animals" target="_blank"
+                style="color: #cccccc; text-decoration: none;">Maroon 5 - Animals</a>
+        </div>
+        <br>
+        <p>Insertar una p&aacute;gina en la propia</p> <br>
+        <iframe src="https://www.google.com/?source=404" frameborder="0" height="500px" width="700px"></iframe>
+        <hr>
+
+        <h3>Formularios</h3>
+
+        <form action="envio.php" method="post" target="_blank">
+            <fieldset>
+                <legend>Formulario HTML</legend>
+                <label for="Usuario">Usuario:</label>
+                <input type="text" id="identidicador" size="tamaño" name="nombre" placeholder="Usuario" minlength="5"
+                    maxlength="10" required>
+                <br>
+                <label for="Usuario">Usuario con expresi&oacute;n regular: no puede usar n&uacute;meros ni
+                    caract&eacute;res especiales</label>
+                <input type="text" id="identidicador" size="tamaño" name="nombre" placeholder="Usuario" minlength="5"
+                    maxlength="10" pattern="[A-Za-z]{3}">
+                <br>
+                <label for="Usuario">Usuario:</label>
+                <input type="text" id="identidicador" size="tamaño" name="nombre" placeholder="Usuario" value="Jorge"
+                    readonly><br>
+                <label for="Usuario">Usuario:</label>
+                <input type="text" id="identidicador" size="tamaño" name="nombre" placeholder="Usuario" value="Jorge"
+                    disabled>
+                <br>
+                <br>
+                <br>
+                <label for="Password">Contraseña:</label>
+                <input type="password" id="Password" size="tamaño" name="Password" placeholder="Contraseña" required>
+                <br>
+                <br>
+                <p>Correo</p>
+                <label for="Email">Correo Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <p>fecha</p>
+                <label for="Date">Fecha de nacimiento</label>
+                <input type="date" id="Date" name="Date" max="2023-07-04">
+                <p>Radio</p>
+                <input type="radio" name="lenguajes" value="HTML"> HTML
+                <input type="radio" name="lenguajes" value="CSS"> CSS
+                <input type="radio" name="lenguajes" value="JAVASCRIPT"> JAVASCRIPT
+                <input type="radio" name="lenguajes" value="REACT"> REACT
+                <br>
+                <br>
+                <p>Checkbox</p>
+                <input type="checkbox" name="lenguajes" value="HTML"> HTML
+                <input type="checkbox" name="lenguajes" value="CSS"> CSS
+                <input type="checkbox" name="lenguajes" value="JAVASCRIPT"> JAVASCRIPT
+                <input type="checkbox" name="lenguajes" value="REACT"> REACT
+                <br>
+                <br>
+                <p>N&uacute;meros</p>
+                <label for="programando">Años programando:</label>
+                <input type="number" id="programando" name="programando" placeholder="Años" max="3" min="0">
+                <br>
+                <br>
+                <p>Archivos que se pueden subir a la plataforma o formulario</p>
+                <label for="archivo">Sube tu CV</label>
+                <input type="file" id="archivo" name="archivo" value="file">
+                <br>
+                <br>
+                <p>Archivos que se pueden subir a la plataforma o formulario - subir varios archivos al mismo tiempo</p>
+                <label for="archivo">Sube los documentos</label>
+                <input type="file" id="archivo" name="archivo" value="file" multiple>
+                <br>
+                <br>
+                <p>Texto largo</p>
+                <label for="opini&oacute;n">Opini&oacute;n</label>
+                <textarea id="opini&oacute;n" name="opini&oacute;n" placeholder="Escribe tu opini&oacute;n" rows="4"
+                    cols="60"></textarea>
+                <br>
+                <br>
+                <p>Selector con despliegue en grupo</p>
+                <label for="pa&iacute;s">Pa&iacute;s de origen</label>
+                <select name="pa&iacute;s" id="pa&iacute;s">
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Alemania">Alemania</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Italia">Italia</option>
+                    <option value="Inglaterra" selected="selected">Inglaterra</option>
+                </select>
+                <br>
+                <label for="Continentes">Continentes</label>
+                <select name="pa&iacute;s" id="pa&iacute;s">
+                    <optgroup label="Am&eacute;rica">
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Argentina">Argentina</option>
+                    </optgroup>
+
+                    <optgroup label="Europa">
+                        <option value="Francia">Francia</option>
+                        <option value="Italia">Italia</option>
+                        <option value="Inglaterra" selected="selected">Inglaterra</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">Enviar datos
+                <input type="submit" value="Submit">Submit
+                <input type="reset" value="Reset">Resetear formulario
+                <input type="button" onclick="alert(12345)" value="Form">
+            </fieldset>
+        </form>
+
+
+        <h1> SVG:</h1>
+        <hr>
+        <svg width="200px" height="150px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+                <path
+                    d="M22.45 28.11L17 25.38V25C17 24.7348 16.8946 24.4804 16.7071 24.2929C16.5196 24.1054 16.2652 24 16 24C15.7348 24 15.4804 24.1054 15.2929 24.2929C15.1054 24.4804 15 24.7348 15 25V25.38L9.55 28.11C9.33366 28.2402 9.17456 28.4474 9.10466 28.69C9.03477 28.9326 9.05924 29.1927 9.17317 29.4181C9.2871 29.6434 9.48206 29.8173 9.71889 29.9048C9.95573 29.9924 10.2169 29.9871 10.45 29.89L15 27.62V28C15 28.2652 15.1054 28.5196 15.2929 28.7071C15.4804 28.8946 15.7348 29 16 29C16.2652 29 16.5196 28.8946 16.7071 28.7071C16.8946 28.5196 17 28.2652 17 28V27.62L21.55 29.89C21.6883 29.964 21.8431 30.0019 22 30C22.1847 29.9994 22.3656 29.9478 22.5227 29.8507C22.6798 29.7536 22.8069 29.6149 22.89 29.45C23.0086 29.2138 23.0289 28.9403 22.9465 28.6892C22.864 28.4381 22.6855 28.2299 22.45 28.11Z"
+                    fill="#263238"></path>
+                <path
+                    d="M22.92 20.62C22.845 20.4374 22.7176 20.2811 22.5538 20.1707C22.3901 20.0604 22.1974 20.001 22 20H9.99999C9.80256 20.001 9.60985 20.0604 9.44613 20.1707C9.28241 20.2811 9.15501 20.4374 9.07999 20.62C9.00341 20.8021 8.98248 21.0028 9.01986 21.1968C9.05723 21.3908 9.15123 21.5694 9.28999 21.71L12.29 24.71C12.3834 24.8027 12.4942 24.876 12.6161 24.9258C12.7379 24.9755 12.8684 25.0008 13 25H19C19.1316 25.0008 19.2621 24.9755 19.3839 24.9258C19.5057 24.876 19.6165 24.8027 19.71 24.71L22.71 21.71C22.8487 21.5694 22.9427 21.3908 22.9801 21.1968C23.0175 21.0028 22.9966 20.8021 22.92 20.62Z"
+                    fill="#FF6F00"></path>
+                <path
+                    d="M27 2H5C3.34315 2 2 3.34315 2 5V19C2 20.6569 3.34315 22 5 22H27C28.6569 22 30 20.6569 30 19V5C30 3.34315 28.6569 2 27 2Z"
+                    fill="#455A64"></path>
+                <path
+                    d="M23 9H9C8.73478 9 8.48043 8.89464 8.29289 8.70711C8.10536 8.51957 8 8.26522 8 8C8 7.73478 8.10536 7.48043 8.29289 7.29289C8.48043 7.10536 8.73478 7 9 7H23C23.2652 7 23.5196 7.10536 23.7071 7.29289C23.8946 7.48043 24 7.73478 24 8C24 8.26522 23.8946 8.51957 23.7071 8.70711C23.5196 8.89464 23.2652 9 23 9Z"
+                    fill="#BDBDBD"></path>
+                <path
+                    d="M14 13H9C8.73478 13 8.48043 12.8946 8.29289 12.7071C8.10536 12.5196 8 12.2652 8 12C8 11.7348 8.10536 11.4804 8.29289 11.2929C8.48043 11.1054 8.73478 11 9 11H14C14.2652 11 14.5196 11.1054 14.7071 11.2929C14.8946 11.4804 15 11.7348 15 12C15 12.2652 14.8946 12.5196 14.7071 12.7071C14.5196 12.8946 14.2652 13 14 13Z"
+                    fill="#F5F5F5"></path>
+                <path
+                    d="M19 17H9C8.73478 17 8.48043 16.8946 8.29289 16.7071C8.10536 16.5196 8 16.2652 8 16C8 15.7348 8.10536 15.4804 8.29289 15.2929C8.48043 15.1054 8.73478 15 9 15H19C19.2652 15 19.5196 15.1054 19.7071 15.2929C19.8946 15.4804 20 15.7348 20 16C20 16.2652 19.8946 16.5196 19.7071 16.7071C19.5196 16.8946 19.2652 17 19 17Z"
+                    fill="#BDBDBD"></path>
+                <path
+                    d="M15 25V25.38L9.55 28.11C9.33366 28.2402 9.17456 28.4474 9.10466 28.69C9.03477 28.9326 9.05924 29.1927 9.17317 29.4181C9.2871 29.6434 9.48206 29.8173 9.71889 29.9048C9.95573 29.9924 10.2169 29.9871 10.45 29.89L15 27.62V28C15 28.2652 15.1054 28.5196 15.2929 28.7071C15.4804 28.8946 15.7348 29 16 29V24C15.7348 24 15.4804 24.1054 15.2929 24.2929C15.1054 24.4804 15 24.7348 15 25Z"
+                    fill="#616161"></path>
+                <path
+                    d="M9.99999 20C9.80256 20.001 9.60985 20.0604 9.44613 20.1707C9.28241 20.2811 9.15501 20.4374 9.07999 20.62C9.00341 20.8021 8.98248 21.0028 9.01986 21.1968C9.05723 21.3908 9.15123 21.5694 9.28999 21.71L12.29 24.71C12.3834 24.8027 12.4942 24.876 12.6161 24.9258C12.7379 24.9755 12.8684 25.0008 13 25H16V20H9.99999Z"
+                    fill="#FFA000"></path>
+                <path
+                    d="M5 2C4.20435 2 3.44129 2.31607 2.87868 2.87868C2.31607 3.44129 2 4.20435 2 5V19C2 19.7956 2.31607 20.5587 2.87868 21.1213C3.44129 21.6839 4.20435 22 5 22H16V2H5Z"
+                    fill="#78909C"></path>
+                <path
+                    d="M9 7C8.73478 7 8.48043 7.10536 8.29289 7.29289C8.10536 7.48043 8 7.73478 8 8C8 8.26522 8.10536 8.51957 8.29289 8.70711C8.48043 8.89464 8.73478 9 9 9H16V7H9Z"
+                    fill="#F5F5F5"></path>
+                <path
+                    d="M14 11H9C8.73478 11 8.48043 11.1054 8.29289 11.2929C8.10536 11.4804 8 11.7348 8 12C8 12.2652 8.10536 12.5196 8.29289 12.7071C8.48043 12.8946 8.73478 13 9 13H14C14.2652 13 14.5196 12.8946 14.7071 12.7071C14.8946 12.5196 15 12.2652 15 12C15 11.7348 14.8946 11.4804 14.7071 11.2929C14.5196 11.1054 14.2652 11 14 11Z"
+                    fill="#F5F5F5"></path>
+                <path
+                    d="M9 15C8.73478 15 8.48043 15.1054 8.29289 15.2929C8.10536 15.4804 8 15.7348 8 16C8 16.2652 8.10536 16.5196 8.29289 16.7071C8.48043 16.8946 8.73478 17 9 17H16V15H9Z"
+                    fill="#F5F5F5"></path>
+                <path
+                    d="M27 2H5C4.20435 2 3.44129 2.31607 2.87868 2.87868C2.31607 3.44129 2 4.20435 2 5V19C2 19.7956 2.31607 20.5587 2.87868 21.1213C3.44129 21.6839 4.20435 22 5 22H9.59L12.29 24.71C12.3834 24.8027 12.4943 24.876 12.6161 24.9258C12.7379 24.9755 12.8684 25.0008 13 25H19C19.1316 25.0008 19.2621 24.9755 19.3839 24.9258C19.5057 24.876 19.6166 24.8027 19.71 24.71L22.41 22H27C27.7956 22 28.5587 21.6839 29.1213 21.1213C29.6839 20.5587 30 19.7956 30 19V5C30 4.20435 29.6839 3.44129 29.1213 2.87868C28.5587 2.31607 27.7956 2 27 2ZM18.59 23H13.41L12.41 22H19.59L18.59 23ZM28 19C28 19.2652 27.8946 19.5196 27.7071 19.7071C27.5196 19.8946 27.2652 20 27 20H5C4.73478 20 4.48043 19.8946 4.29289 19.7071C4.10536 19.5196 4 19.2652 4 19V5C4 4.73478 4.10536 4.48043 4.29289 4.29289C4.48043 4.10536 4.73478 4 5 4H27C27.2652 4 27.5196 4.10536 27.7071 4.29289C27.8946 4.48043 28 4.73478 28 5V19Z"
+                    fill="#263238"></path>
+            </g>
+        </svg>
+
+
+
+        <hr>
+        <aside>
+            <p>Secci&oacute;n de Aside</p>
+            <ol>
+                <li>Front-end</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+            </ol>
+        </aside>
+
+        <footer>Pol&iacute;ticas de privacidad y aviso legal</footer>
+
+        <script src="index.js"></script>
+</body>
+
+</html>
